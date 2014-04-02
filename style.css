@@ -12,7 +12,7 @@ body {
 
 .wrapper {
 	position: relative;
-	background-color: #f00000;
+	background-color: #DD0000;
 	height: 450px;
 	width: 350px;
 	float: right;
@@ -33,14 +33,14 @@ button:focus {
 }
 
 button:hover {
-	background-color: #cf0000;
+	background-color: #b10000;
 
 }
 
 ::-webkit-input-placeholder {
    color: white;
    font-size: 14px;
-   opacity: 0.3;
+   opacity: 0.5;
 }
 
 #shop-list {
@@ -66,13 +66,13 @@ li, .consume, button {
 li {
 
 	width: 100%;
-	background-color: #f00000;
+	background-color: #DD0000;
 
 
 }
 
 li:hover {
-		background-color: #cf0000;
+		background-color: #b10000;
 
 }
 
@@ -80,7 +80,7 @@ li:hover {
 	width: 100%;
 	margin: auto;
 	color: white;
-	background-color: #cc0000;
+	background-color: #b10000;
 	font: 14px/23px Helvetica, Arial,sans-serif!important;
     line-height: 29px;
 

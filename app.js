@@ -10,6 +10,9 @@ $(function(){
 			}
 		}
 
+	function limitText(field, maxChar){
+		$(field).attr('maxlength',maxChar);
+	}
 
 	$("input").keydown(function(event) {
 		
@@ -36,6 +39,8 @@ $(function(){
 	$( "#shop-list" ).sortable({   
 			placeholder: "ui-sortable-placeholder"   
 		});  
+
+
 
 // $("input").on("keydown",function search(e) {
 //     if(e.keyCode == 13) {
