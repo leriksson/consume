@@ -22,6 +22,7 @@ body {
 .list {
 	width: 100%;
 	text-align: center;
+	max-height: 350px;
 }
 
 input:focus,
@@ -42,11 +43,13 @@ button:hover {
    opacity: 0.3;
 }
 
-ul {
+#shop-list {
 	list-style-type: none;
 	text-align: center;
     padding: 0;
 	margin: auto;
+	max-height: 340px;
+	overflow: scroll;
 }
 
 li, .consume, button {
@@ -60,7 +63,6 @@ li, .consume, button {
     text-align: left;
     letter-spacing: 1px;
 }
-
 li {
 
 	width: 100%;
